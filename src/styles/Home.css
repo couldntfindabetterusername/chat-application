@@ -1,0 +1,57 @@
+/* common css */
+
+button {
+    border: none;
+    outline: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.room {
+    display: flex;
+    justify-content: space-between;
+}
+
+.room section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Arial;
+    margin: auto 0;
+}
+
+.room section input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    background: rgba(59, 89, 152, 0.05);
+    border-radius: 5px;
+    min-width: 300px;
+}
+
+.room section button {
+    background: #3b5998;
+    color: white;
+}
+
+.sign-out {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.sign-out button {
+    margin: 10px 0;
+    border: 1px solid #3b5998;
+    background: white;
+    color: #3b5998;
+}

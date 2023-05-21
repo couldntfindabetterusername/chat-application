@@ -1,0 +1,19 @@
+.auth {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 1rem;
+}
+
+button {
+    border: 1px solid #3b5998;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #3b5998;
+    background: white;
+    cursor: pointer;
+}
